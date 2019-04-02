@@ -1,0 +1,6 @@
+set(hello_world_robot_SETUP_PY_VERSION "1.1.0")
+set(hello_world_robot_SETUP_PY_SCRIPTS "")
+set(hello_world_robot_SETUP_PY_PACKAGES "hello_world_robot")
+set(hello_world_robot_SETUP_PY_PACKAGE_DIRS "src/hello_world_robot")
+set(hello_world_robot_SETUP_PY_MODULES "")
+set(hello_world_robot_SETUP_PY_MODULE_DIRS "")

@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/environment/AWS-RoboMaker-HelloWorld-app/robot_ws/install/hello_world_robot
+
+Name: hello_world_robot
+Description: Description of hello_world_robot
+Version: 1.1.0
+Cflags: 
+Libs: -L/home/ubuntu/environment/AWS-RoboMaker-HelloWorld-app/robot_ws/install/hello_world_robot/lib 
+Requires: rospy std_msgs sensor_msgs geometry_msgs message_runtime

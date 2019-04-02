@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
   sensor_msgs
+  geometry_msgs
 )
 
 ################################################################################
@@ -34,6 +35,7 @@ catkin_package(
     rospy
     std_msgs
     sensor_msgs
+    geometry_msgs
     message_runtime
 )
 
@@ -49,6 +51,7 @@ include_directories(
 # Install
 ################################################################################
 catkin_install_python(PROGRAMS 
+  nodes/rotate.py 
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 

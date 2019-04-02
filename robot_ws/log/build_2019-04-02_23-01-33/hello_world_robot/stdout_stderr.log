@@ -1,0 +1,36 @@
+-- Using CATKIN_DEVEL_PREFIX: /home/ubuntu/environment/AWS-RoboMaker-HelloWorld-app/robot_ws/build/hello_world_robot/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/kinetic
+-- This workspace overlays: /opt/ros/kinetic
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/ubuntu/environment/AWS-RoboMaker-HelloWorld-app/robot_ws/build/hello_world_robot/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/environment/AWS-RoboMaker-HelloWorld-app/robot_ws/build/hello_world_robot
+Built target tests
+[36mInstall the project...[0m
+-- Install configuration: ""
++ cd /home/ubuntu/environment/AWS-RoboMaker-HelloWorld-app/robot_ws/src/hello_world_robot
++ mkdir -p /home/ubuntu/environment/AWS-RoboMaker-HelloWorld-app/robot_ws/install/hello_world_robot/lib/python2.7/dist-packages
++ /usr/bin/env PYTHONPATH=/home/ubuntu/environment/AWS-RoboMaker-HelloWorld-app/robot_ws/install/hello_world_robot/lib/python2.7/dist-packages:/home/ubuntu/environment/AWS-RoboMaker-HelloWorld-app/robot_ws/build/hello_world_robot/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/ubuntu/environment/AWS-RoboMaker-HelloWorld-app/robot_ws/build/hello_world_robot /usr/bin/python /home/ubuntu/environment/AWS-RoboMaker-HelloWorld-app/robot_ws/src/hello_world_robot/setup.py build --build-base /home/ubuntu/environment/AWS-RoboMaker-HelloWorld-app/robot_ws/build/hello_world_robot install --install-layout=deb --prefix=/home/ubuntu/environment/AWS-RoboMaker-HelloWorld-app/robot_ws/install/hello_world_robot --install-scripts=/home/ubuntu/environment/AWS-RoboMaker-HelloWorld-app/robot_ws/install/hello_world_robot/bin
+running build
+error: package directory 'src/hello_world_robot' does not exist
+running build_py
+CMake Error at catkin_generated/safe_execute_install.cmake:4 (message):
+  
+  execute_process(/home/ubuntu/environment/AWS-RoboMaker-HelloWorld-app/robot_ws/build/hello_world_robot/catkin_generated/python_distutils_install.sh)
+  returned error code
+Call Stack (most recent call first):
+  cmake_install.cmake:36 (include)
+  
+
+
+Makefile:61: recipe for target 'install' failed
+make: *** [install] Error 1

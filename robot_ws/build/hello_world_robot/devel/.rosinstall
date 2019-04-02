@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ubuntu/environment/AWS-RoboMaker-HelloWorld-app/robot_ws/build/hello_world_robot/devel/setup.sh
